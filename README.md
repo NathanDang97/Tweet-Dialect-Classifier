@@ -24,13 +24,13 @@ This project aims to develop a 3-way dialect classifier that detects whether a t
 1. For the dialect classifier: download or preprocess the dialect corpus using the provided script in the _scripts_ folder. Use the following command to install the requirements and download the dataset
 ```bash
 pip install -r requirements.txt
-python download_tweetteraae.py
+python download_tweetteraae_data.py
 ```
 The script tokenizes and saves the data using Hugging Face's tokenizer with max_length truncation and padding.
 
 2. For sentiment analysis: download the TWEETEval dataset using the following command
 ```bash
-python download_tweeteval.py
+python download_tweeteval_data.py
 ```
 The script not only downloads the raw data, but also shows how you can tokenize it for independent interest. In other words, this project only requires the raw TWEETEval data, tokenizing it is a simple extra feature.
 
