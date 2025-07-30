@@ -44,7 +44,7 @@ There are 3 notebooks (.ipynb) for this project. All of them can be found in the
 
 ## 🔍 Results
 ### Dialect Classifier Performance
-The transformer-based dialect classifier, fine-tuned using the BERTweet model with additional linguistic features (POS tags, n-grams), achieved strong overall performance distinguishing among Standard English (White), Standard African American English (AAE-no-AAVE), and African American Vernacular English (AAVE). Notably, the classifier achieved exceptionally high accuracy (~99%) in identifying AAVE tweets. However, distinguishing between White and AAE-no-AAVE dialects proved more challenging, with accuracy scores just above ~80%, reflecting the linguistic similarities and nuanced differences between these two dialects.
+The transformer-based dialect classifier, fine-tuned using the BERTweet model with additional linguistic features (POS tags, n-grams), achieved strong overall performance distinguishing among Standard English (White), Standard African American English (AAE-no-AAVE), and African American Vernacular English (AAVE). Notably, the classifier achieved exceptionally high accuracy (~99%) in identifying AAVE tweets. However, distinguishing between White and AAE-no-AAVE dialects proved more challenging, with accuracy scores ~80%, reflecting the linguistic similarities and nuanced differences between these two dialects.
 
 ### Sentiment Analysis
 Three sentiment models (BERTweet, RoBERTa, RoBERTa-Latest) were evaluated on the TWEETEval dataset, grouped by dialect:
