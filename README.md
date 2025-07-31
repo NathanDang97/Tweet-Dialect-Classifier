@@ -57,11 +57,12 @@ Statistical analyses using the Kruskal-Wallis test revealed no statistically sig
 - Model Disagreement: Approximately 19% overall disagreement among models was found, indicating frequent divergence in sentiment predictions. Disagreement was notably higher for AAE-no-AAVE and AAVE groups (~24%) compared to White tweets in balanced conditions (~1%), suggesting linguistic complexities in African American dialects pose more challenges to existing sentiment models.
 - Error Analysis: Qualitative inspection of tweets where models consistently struggled revealed linguistic nuances such as idiomatic expressions, slang usage, zero-copula constructions, and culturally-specific references contributing to misclassification.
 - Top Confusion Pairs: Most confusion was found between neutral and negative sentiments across all models, indicating sentiment subtlety as a common challenge, particularly for dialect groups with nuanced emotional expressions.
+- **Note:** the results and accompanied figures can be found in the _results_ folder.
 
 These insights highlight the need for dialect-specific training and evaluation to improve fairness and reduce bias in sentiment analysis pipelines.
 
 ## Acknowledgments
-- TwitterAAE (Research on African-American English on Twitter): https://slanglab.cs.umass.edu/TwitterAAE/
-- TWEETEval benchmark: https://huggingface.co/datasets/tweet_eval
-- AAVE corpora: https://github.com/jazmiahenry/aave_corpora
-- Hugging Face Transformers for modeling and tokenizer infrastructure.
+1. TwitterAAE (Research on African-American English on Twitter): https://slanglab.cs.umass.edu/TwitterAAE/
+2. TWEETEval benchmark: https://huggingface.co/datasets/tweet_eval
+3. AAVE corpora: https://github.com/jazmiahenry/aave_corpora
+4. Hugging Face Transformers for modeling and tokenizer infrastructure.
